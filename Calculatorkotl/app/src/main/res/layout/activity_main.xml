@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/math_oper"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:ellipsize="start"
+        android:gravity="end"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_height="0dp" >
+            <TextView
+                style="@style/Buttons1"
+                android:text="AC"
+                android:id="@+id/btn_cl">
+            </TextView>
+            <TextView
+                style="@style/Buttons1"
+                android:text="("
+                android:id="@+id/btn_fn1">
+            </TextView>
+            <TextView
+                style="@style/Buttons1"
+                android:text=")"
+                android:id="@+id/btn_fn2">
+            </TextView>
+            <TextView
+                style="@style/Buttons1"
+                android:text="/"
+                android:id="@+id/btn_div">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_height="0dp"  >
+            <TextView
+                style="@style/Buttons2Num"
+                android:text="1"
+                android:id="@+id/btn_1">
+            </TextView>
+            <TextView
+                style="@style/Buttons2Num"
+                android:text="2"
+                android:id="@+id/btn_2">
+            </TextView>
+            <TextView
+                style="@style/Buttons2Num"
+                android:text="3"
+                android:id="@+id/btn_3">
+            </TextView>
+            <TextView
+                style="@style/Buttons1"
+                android:text="*"
+                android:id="@+id/btn_mul">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_height="0dp"  >
+            <TextView
+                style="@style/Buttons2Num"
+                android:text="4"
+                android:id="@+id/btn_4">
+            </TextView>
+            <TextView
+                style="@style/Buttons2Num"
+                android:text="5"
+                android:id="@+id/btn_5">
+            </TextView>
+            <TextView
+                style="@style/Buttons2Num"
+                android:text="6"
+                android:id="@+id/btn_6">
+            </TextView>
+            <TextView
+                style="@style/Buttons1"
+                android:text="+"
+                android:id="@+id/btn_plus">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+            <TextView
+                style="@style/Buttons2Num"
+                android:text="7"
+                android:id="@+id/btn_7">
+            </TextView>
+            <TextView
+                style="@style/Buttons2Num"
+                android:text="8"
+                android:id="@+id/btn_8">
+            </TextView>
+            <TextView
+                style="@style/Buttons2Num"
+                android:text="9"
+                android:id="@+id/btn_9">
+            </TextView>
+            <TextView
+                style="@style/Buttons1"
+                android:text="-"
+                android:id="@+id/btn_min">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <TextView
+                style="@style/Buttons2Num"
+                android:text="0"
+                android:id="@+id/btn_0">
+            </TextView>
+            <TextView
+                style="@style/Buttons2Num"
+                android:text="."
+                android:id="@+id/btn_point">
+            </TextView>
+            <TextView
+                style="@style/Buttons1"
+                android:text="Back"
+                android:id="@+id/btn_ers">
+            </TextView>
+            <TextView
+                style="@style/Buttons3Res"
+                android:text="="
+                android:id="@+id/btn_res">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
